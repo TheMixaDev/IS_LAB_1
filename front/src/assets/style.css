@@ -1,0 +1,239 @@
+body {
+	background-color: #342f85;
+	color: white;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.separated {
+	border: 1px solid #04396c;
+	padding: 20px;
+	border-radius: 16px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+	background-color: #26527c;
+}
+
+.spaced-right {
+	margin-right: 5px;
+}
+
+.spaced-left {
+	margin-left: 5px;
+}
+
+.spaced-top {
+	margin-top: 5px;
+}
+
+.spaced-bottom {
+	margin-bottom: 5px;
+}
+
+.centered {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.no-select {
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+.max-height {
+	height: 100%;
+}
+
+button {
+	background-color: #554dd8;
+	color: white;
+	border: none;
+	padding: 7px 14px;
+	border-radius: 8px;
+	cursor: pointer;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+}
+
+button:hover {
+	background-color: #7872d8;
+}
+
+button.red {
+	background-color: #a60400;
+}
+
+button.red:hover {
+	background-color: #bf3330;
+}
+
+.standart-width {
+	width: 150px;
+}
+
+button.large-width {
+	width: 200px;
+}
+
+input,
+textarea {
+	border: none;
+	padding: 7px 14px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	background-color: #679ed2;
+	color: #0e0874;
+}
+
+input::placeholder {
+	color: #554dd8;
+}
+
+select {
+	border: none;
+	padding: 7px 14px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	background-color: #679ed2;
+	color: #0e0874;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #26527c;
+	border: 1px solid #370470;
+	border-radius: 16px;
+}
+table th {
+	background-color: #522881;
+}
+table th,
+table td {
+	padding: 8px;
+}
+
+table tr {
+	background-color: #8742d6;
+}
+
+table tr:nth-child(even) {
+	background-color: #9c6ad6;
+}
+
+.form-group {
+	display: flex;
+	align-items: center;
+	padding-top: 5px;
+}
+
+.form-label {
+	width: 150px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+	flex: 1;
+}
+
+.form-textarea {
+	height: 100px;
+	resize: vertical;
+}
+
+.items-center {
+	align-items: center;
+}
+
+.add-button {
+	margin-left: 10px;
+	padding: 5px 10px;
+	font-size: 16px;
+}
+
+.leaflet-control-attribution {
+	display: none !important;
+}
+
+p {
+	margin: 6px;
+}
+
+.music-band-details {
+	background-color: #26527c;
+	padding: 20px;
+	border-radius: 8px;
+	color: white;
+}
+
+.band-name {
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+.band-info {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+}
+
+.band-info p {
+	margin: 0 10px 5px 0;
+	width: 45%;
+}
+
+.info-label {
+	font-weight: bold;
+}
+
+.best-album {
+	background-color: #342f85;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+
+.loading,
+.not-found {
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 20px;
+}
